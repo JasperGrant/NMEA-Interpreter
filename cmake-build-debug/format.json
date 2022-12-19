@@ -1,0 +1,97 @@
+{
+  "$PISE": [
+    {
+      "parameter": "latitude",
+      "position": 1,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "longitude",
+      "position": 2,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "altitude",
+      "position": 3,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "heading",
+      "position": 4,
+      "type": "integer"
+    }
+  ],
+  "$GPGGA": [
+    {
+      "parameter": "latitude",
+      "position": 2,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "longitude",
+      "position": 4,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "altitude",
+      "position": 1,
+      "type": "integer"
+    },
+    {
+      "parameter": "heading",
+      "position": 3,
+      "type": "integer"
+    }
+  ],
+  "$TEST": [
+    {
+      "parameter": "time",
+      "position": 5,
+      "type": "time"
+    }
+  ],
+  "$TEST2": [
+    {
+      "parameter": "altitude",
+      "position": 2,
+      "type": "integer"
+    },
+    {
+      "parameter": "heading",
+      "position": 1,
+      "type": "floating_point"
+    }
+  ],
+  "$GNGGA": [
+    {
+      "parameter": "time",
+      "position": 1,
+      "type": "time"
+    },
+    {
+      "parameter": "latitude",
+      "position": 2,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "longitude",
+      "position": 4,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "altitude",
+      "position": 9,
+      "type": "floating_point"
+    },
+    {
+      "parameter": "long_sign",
+      "position": 5,
+      "type": "character"
+    },
+    {
+      "parameter": "lat_sign",
+      "position": 3,
+      "type": "character"
+    }
+  ]
+}
