@@ -5,7 +5,7 @@
 #include "jsonReader.h"
 
 
-jsonReader::jsonReader(const std::string& fileName) {
+jsonReader::jsonReader(std::string fileName) {
     jsonReader::formatFile.open(fileName);
     jsonReader::data = json::parse(formatFile);
 }
